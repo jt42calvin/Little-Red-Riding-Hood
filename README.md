@@ -1,17 +1,37 @@
-# Little-Red-Riding-Hood
+# Little Red Riding Hood: A Data Analysis
 
-We found an interesting graphic on Kaggle aiming to determine when Little Red Riding Hood (from the fairy tale) was most likely eaten. The author claims with the graphic that Little Red Riding Hood was probably eaten in June. The author used a Wikipedia dataset of 462 wolf attacks worldwide, the earliest in the 14th century, and totaled the attacks by month and by gender. The dataset includes the columns:
+A humorous data science project investigating when Little Red Riding Hood was most likely eaten by analyzing historical wolf attack patterns.
 
-- Victims: the name, age, and gender of the victim(s) (not all present in every record)
-- Date: date or year of the attack (variety of entry forms as well)
-- Type of attack: whether the attack was predatory, unprovoked, rabid, etc.
-- Location: place of attack
-- Notes: description of the attack if any
+## 🐺 Project Overview
 
-The data can be found here:
+Using a dataset of 462 wolf attacks worldwide (dating back to the 14th century), this project analyzes attack patterns by month and victim gender to determine the most likely time Little Red Riding Hood met her fate.
 
-https://www.kaggle.com/datasets/danela/global-wolf-attacks
+## 📊 Key Features
 
-And the graphic can be found here and is included below:
+- **Advanced Data Wrangling**: Custom regex-based parsing to extract victim counts and gender from messy historical data
+- **Multiple Visualizations**: Bar charts and line graphs showing attack patterns by month and gender
+- **Interactive Plots**: Zoom-able incident breakdowns using Plotly
 
-https://www.kaggle.com/code/uwegradwohl/was-little-red-ridinghood-eaten-up-in-june
+## 🔗 Links
+
+- **Google Colab Notebook**: [Open in Colab](https://colab.research.google.com/drive/1JesP5G68ZXD_oTfH_2jJ6D5rVrnHM22F)
+- **Dataset Source**: [Kaggle - Global Wolf Attacks](https://www.kaggle.com/datasets/danela/global-wolf-attacks)
+
+## 📈 Key Findings
+
+- **If Little Red Riding Hood was female**: Most likely eaten in **June**
+- **Gender unknown**: Still most likely **June**
+
+## 🛠️ Technologies Used
+
+- Python (Pandas, Plotly, Regex)
+- Jupyter Notebook / Google Colab
+- Kaggle API
+
+## 📝 Course
+
+DATA 202 - Data Analysis Project
+
+---
+
+*"Thank you for coming to our TED talk."*
